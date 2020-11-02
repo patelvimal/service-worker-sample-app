@@ -1,0 +1,23 @@
+{
+  "name": "service-worker-sample-app",
+  "version": "1.0.0",
+  "description": "Service Worker Integrated in a Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 8000 -o "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patelvimal/service-worker-sample-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patelvimal/service-worker-sample-app/issues"
+  },
+  "homepage": "https://github.com/patelvimal/service-worker-sample-app#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}

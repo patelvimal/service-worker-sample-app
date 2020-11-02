@@ -1,6 +1,6 @@
-﻿if ('serviceWorker' in navigator) {
+if ('serviceWorker' in navigator) {
     // then register our service worker
-    navigator.serviceWorker.register('/sw-sample-app/api/article/serviceworker', { scope: '/sw-sample-app/' })
+    navigator.serviceWorker.register('sw.js', { scope: '/' })
         .then(reg => {
             console.log(`Service Worker Registration (Scope: ${reg.scope})`);
         })
