@@ -1,16 +1,15 @@
 var APPNAME = 'sampleApp';
 var VERSION = "1.0.3";
 var CACHENAME = APPNAME + ":" + VERSION;
-// var CACHELIST = [
-//     "/",
-//     "/sw-sample-app",
-//     "/sw-sample-app/",
-//     "/sw-sample-app/offline.html",
-//     "/sw-sample-app/index.html"
-// ];
-
 var CACHELIST = [
-    "/offline.html"
+    "/",
+    "/sw-sample-app",
+    "/sw-sample-app/index.html",
+    "/sw-sample-app/css/bootstrap.min.css",
+    "/sw-sample-app/css/site.css",
+    "/sw-sample-app/js/jquery-3.5.1.min.js",
+    "/sw-sample-app/js/bootstrap.min.js",
+    "/sw-sample-app/js/site.js"
 ];
 
 /*******  Service Worker Event Handlers *******/
